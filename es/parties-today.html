@@ -866,11 +866,13 @@
     <script>
         // Dynamic day display
         const days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-        const today = new Date().getDay();
+        const now = new Date();
+        const today = now.getDay();
+        const dateStr = now.toLocaleDateString('es-ES', { day: 'numeric', month: 'long' });
         const badge = document.getElementById('today-day');
         if (badge) {
             if (today >= 4 && today <= 6) {
-                badge.textContent = days[today] + ' Noche — Lista Abierta';
+                badge.textContent = days[today] + ' ' + dateStr + ' — Lista Abierta';
                 badge.style.background = 'rgba(46, 204, 113, 0.2)';
                 badge.style.color = '#2ecc71';
                 badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';

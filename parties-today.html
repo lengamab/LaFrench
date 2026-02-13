@@ -912,11 +912,13 @@
     <script>
         // Dynamic day display
         const days = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
-        const today = new Date().getDay();
+        const now = new Date();
+        const today = now.getDay();
+        const dateStr = now.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
         const badge = document.getElementById('today-day');
         if (badge) {
             if (today >= 4 && today <= 6) {
-                badge.textContent = days[today] + ' Soir — Guest List Ouverte';
+                badge.textContent = days[today] + ' ' + dateStr + ' — Guest List Ouverte';
                 badge.style.background = 'rgba(46, 204, 113, 0.2)';
                 badge.style.color = '#2ecc71';
                 badge.style.borderColor = 'rgba(46, 204, 113, 0.3)';
