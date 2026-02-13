@@ -8,7 +8,16 @@ import re
 
 # Setup Gemini
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-2.0-flash-exp')
+
+def get_model():
+    # Try the 2.0 Flash Exp first
+    try:
+        return genai.GenerativeModel('gemini-2.0-flash-exp')
+    except Exception as e:
+        print(f"⚠️ Could not load gemini-2.0-flash-exp, trying 1.5: {e}")
+        return genai.GenerativeModel('gemini-1.5-flash')
+
+model = get_model()
 
 # Club sources
 CLUB_SOURCES = [
