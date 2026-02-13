@@ -60,9 +60,18 @@ def generate_parties_content():
        
     2. CARDS: Generate HTML cards for open clubs.
     
-    HTML structure for each card:
+    IMPORTANT — Use ONLY these exact image URLs for each club:
+    - Opium Barcelona → slug: "opium-barcelona", image for FR/IT: "images/clubs/opium.webp", image for EN/ES: "../images/clubs/opium.webp"
+    - Shoko Barcelona → slug: "shoko-barcelona", image for FR/IT: "images/clubs/shoko.webp", image for EN/ES: "../images/clubs/shoko.webp"
+    - City Hall → slug: "city-hall", image for FR/IT: "images/clubs/city-hall.webp", image for EN/ES: "../images/clubs/city-hall.webp"
+    - Otto Zutz → slug: "otto-zutz", image for FR/IT: "images/clubs/otto-zutz.webp", image for EN/ES: "../images/clubs/otto-zutz.webp"
+    - KU (ex Pacha) → slug: "ku-pacha-barcelona", image for FR/IT: "images/clubs/ku-pacha.webp", image for EN/ES: "../images/clubs/ku-pacha.webp"
+    
+    NEVER use picsum.photos, unsplash, placeholder.com, or any other placeholder image service.
+    
+    HTML structure for each card (use the correct image path for the language):
     <a href="clubs/CLUB-SLUG" class="tonight-club-card">
-        <div class="tonight-club-img" style="background-image: url('IMAGE_URL');">
+        <div class="tonight-club-img" style="background-image: url('CORRECT_IMAGE_PATH');">
             <span class="day-tag">LOCALIZED_DAY_TAG</span>
         </div>
         <div class="tonight-club-body">
