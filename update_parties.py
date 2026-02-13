@@ -72,14 +72,21 @@ def generate_parties_content():
     Values: The HTML string containing 3-5 cards.
     """
     
-    # Define models to try in order of preference
-    models_to_try = ['gemini-2.0-flash-exp', 'gemini-1.5-flash']
+    # Define models to try in order of preference (Verified from debug run)
+    models_to_try = [
+        'gemini-2.5-flash', 
+        'gemini-2.0-flash', 
+        'gemini-flash-latest'
+    ]
     
     last_error = None
     for model_name in models_to_try:
         try:
             print(f"🤖 Trying model: {model_name}...")
-            current_model = genai.GenerativeModel(model_name)
+            # Note: list_models showed 'models/...' prefix, but SDK often handles without it
+            # We'll try with 'models/' prefix just to be safe as per the debug output
+            full_model_name = f"models/{model_name}" if not model_name.startswith("models/") else model_name
+            current_model = genai.GenerativeModel(full_model_name)
             response = current_model.generate_content(
                 prompt, 
                 generation_config={"response_mime_type": "application/json"}
