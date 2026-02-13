@@ -45,6 +45,225 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Montserrat:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap"
         rel="stylesheet" />
+    <style>
+        .tonight-hero {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.9)),
+                url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .tonight-hero .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .today-badge {
+            display: inline-block;
+            background: rgba(231, 76, 60, 0.2);
+            color: #e74c3c;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border: 1px solid rgba(231, 76, 60, 0.3);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        .breadcrumbs {
+            padding: 15px 0;
+            background: var(--color-bg-light);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .breadcrumbs ol {
+            list-style: none;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .breadcrumbs li {
+            font-size: 0.85rem;
+            color: var(--color-gray);
+        }
+
+        .breadcrumbs li a {
+            color: var(--color-gold);
+            text-decoration: none;
+        }
+
+        .breadcrumbs li a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs li+li::before {
+            content: '›';
+            margin-right: 8px;
+            color: var(--color-gray);
+        }
+
+        .tonight-schedule {
+            padding: 60px 0;
+        }
+
+        .schedule-timeline {
+            max-width: 700px;
+            margin: 40px auto 0;
+        }
+
+        .schedule-item {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .schedule-item::before {
+            content: '';
+            position: absolute;
+            left: 35px;
+            top: 45px;
+            bottom: -30px;
+            width: 2px;
+            background: rgba(201, 168, 76, 0.2);
+        }
+
+        .schedule-item:last-child::before {
+            display: none;
+        }
+
+        .schedule-time {
+            min-width: 70px;
+            background: rgba(201, 168, 76, 0.1);
+            color: var(--color-gold);
+            padding: 8px 12px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-align: center;
+            height: fit-content;
+        }
+
+        .schedule-content h3 {
+            color: var(--color-white);
+            margin-bottom: 5px;
+        }
+
+        .schedule-content p {
+            color: var(--color-white-soft);
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+
+        .tonight-clubs {
+            padding: 60px 0;
+            background: var(--color-bg-light);
+        }
+
+        .tonight-clubs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .tonight-club-card {
+            background: var(--color-bg);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: var(--transition-smooth);
+            text-decoration: none;
+            color: var(--color-white);
+            display: block;
+        }
+
+        .tonight-club-card:hover {
+            border-color: var(--color-gold);
+            transform: translateY(-5px);
+        }
+
+        .tonight-club-img {
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .tonight-club-img .day-tag {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--color-gold);
+            color: #000;
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .tonight-club-body {
+            padding: 20px;
+        }
+
+        .tonight-club-body h3 {
+            font-family: var(--font-heading);
+            color: var(--color-gold);
+            margin-bottom: 5px;
+        }
+
+        .tonight-club-body p {
+            font-size: 0.85rem;
+            color: var(--color-gray);
+        }
+
+        .tonight-club-body .club-music {
+            font-size: 0.8rem;
+            color: var(--color-white-soft);
+            opacity: 0.7;
+            margin-top: 8px;
+        }
+
+        .tonight-cta {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .tonight-cta h2 {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .tonight-cta p {
+            color: var(--color-white-soft);
+            margin-bottom: 30px;
+        }
+    </style>
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
    {
