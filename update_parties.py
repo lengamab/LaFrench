@@ -72,8 +72,25 @@ def generate_parties_content():
     Values: The HTML string containing 3-5 cards.
     """
     
-    response = model.generate_content(prompt, generation_config={"response_mime_type": "application/json"})
-    return json.loads(response.text)
+    # Define models to try in order of preference
+    models_to_try = ['gemini-2.0-flash-exp', 'gemini-1.5-flash']
+    
+    last_error = None
+    for model_name in models_to_try:
+        try:
+            print(f"🤖 Trying model: {model_name}...")
+            current_model = genai.GenerativeModel(model_name)
+            response = current_model.generate_content(
+                prompt, 
+                generation_config={"response_mime_type": "application/json"}
+            )
+            return json.loads(response.text)
+        except Exception as e:
+            last_error = e
+            print(f"⚠️ Model {model_name} failed: {e}")
+            continue
+            
+    raise Exception(f"All models failed. Last error: {last_error}")
 
 def update_page(file_path, new_html):
     if not os.path.exists(file_path):
