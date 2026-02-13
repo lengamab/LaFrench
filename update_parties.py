@@ -113,30 +113,46 @@ def update_page(file_path, content_data):
         return
 
     with open(file_path, 'r', encoding='utf-8') as f:
-        soup = BeautifulSoup(f.read(), 'html.parser')
+        html = f.read()
 
-    # Update Summary
-    summary_el = soup.find(id='ai-daily-summary')
-    if summary_el:
-        summary_el.string = content_data.get('intro', '')
-        print(f"Updated summary in {file_path}")
-    else:
-        print(f"Could not find #ai-daily-summary in {file_path}")
+    modified = False
 
-    # Update Cards
-    container = soup.find('div', class_='tonight-clubs-grid')
-    if container:
-        # Use a new soup to parse the generated HTML and inject it
-        new_soup = BeautifulSoup(content_data.get('cards', ''), 'html.parser')
-        container.clear()
-        container.append(new_soup)
-        
-        # Save back
+    # 1. Update #ai-daily-summary text (targeted regex)
+    intro = content_data.get('intro', '')
+    if intro:
+        # Match: <p ... id="ai-daily-summary">...ANYTHING...</p>
+        pattern = r'(<p[^>]*id="ai-daily-summary"[^>]*>)(.*?)(</p>)'
+        replacement = r'\g<1>' + '\n       ' + intro.replace('\\', '\\\\') + r'\n      \3'
+        new_html, count = re.subn(pattern, replacement, html, count=1, flags=re.DOTALL)
+        if count > 0:
+            html = new_html
+            modified = True
+            print(f"✅ Updated summary in {file_path}")
+        else:
+            print(f"⚠️ Could not find #ai-daily-summary in {file_path}")
+
+    # 2. Update .tonight-clubs-grid cards (targeted regex)
+    cards = content_data.get('cards', '')
+    if cards:
+        # Match: <div class="tonight-clubs-grid">...ANYTHING...</div> (the grid container)
+        # We find the grid opening tag and replace everything until its closing </div>
+        pattern = r'(<div class="tonight-clubs-grid">)(.*?)(</div>\s*</div>\s*</section>)'
+        replacement = r'\g<1>\n' + cards + r'\n     \3'
+        new_html, count = re.subn(pattern, replacement, html, count=1, flags=re.DOTALL)
+        if count > 0:
+            html = new_html
+            modified = True
+            print(f"✅ Updated cards in {file_path}")
+        else:
+            print(f"⚠️ Could not find tonight-clubs-grid in {file_path}")
+
+    # Write back ONLY if something changed — preserves original formatting
+    if modified:
         with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(str(soup.prettify()))
-        print(f"Updated cards in {file_path}")
+            f.write(html)
+        print(f"💾 Saved {file_path}")
     else:
-        print(f"Could not find tonight-clubs-grid in {file_path}")
+        print(f"⚠️ No changes made to {file_path}")
 
 if __name__ == "__main__":
     try:
