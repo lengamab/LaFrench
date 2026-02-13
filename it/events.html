@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCH0WTVM1V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MCH0WTVM1V');
+    </script>
+    <title>Eventi Barcellona 2026 — Festival, Showcase & Serate | La French</title>
+    <meta name="description"
+        content="Calendario completo degli eventi a Barcellona nel 2026: Primavera Sound, Sónar, Off Week, showcase e festival. Guest list gratuita per le serate.">
+    <meta name="keywords"
+        content="eventi barcellona 2026, primavera sound, sonar barcelona, festival barcellona, showcase barcellona, off week">
+
+    <!-- Canonical -->
+    <meta property="og:image" content="https://lafrenchbarcelona-275699211798.europe-west1.run.app/assets/images/si-pub.jpg">
+    <meta property="og:url" content="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events">
+    <link rel="canonical" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events">
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events">
+    <link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/events">
+    <link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/events">
+    <link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events">
+    <link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events">
+
+    <link rel="stylesheet" href="../styles.css?v=2.0">
+    <link rel="stylesheet" href="../blog-styles.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        .events-hero {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.9)),
+                url('../images/hero/barcelona-night.webp');
+            background-size: cover;
+            background-position: center;
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        .events-hero h1 {
+            font-family: var(--font-heading);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: 20px;
+        }
+
+        .events-hero p {
+            font-size: 1.2rem;
+            color: var(--color-white-soft);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .events-section {
+            padding: 80px 0;
+        }
+
+        .events-grid {
+            display: grid;
+            gap: 40px;
+        }
+
+        .event-card {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 40px;
+            background: var(--color-bg-card);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(201, 168, 76, 0.1);
+        }
+
+        .event-card-image {
+            height: 100%;
+            min-height: 280px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .event-date-badge {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--color-gold);
+            color: var(--color-bg);
+            padding: 12px 18px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .event-date-badge .day {
+            font-size: 1.8rem;
+            line-height: 1;
+            display: block;
+        }
+
+        .event-date-badge .month {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .event-card-content {
+            padding: 35px 35px 35px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .event-type {
+            display: inline-block;
+            padding: 5px 14px;
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            width: fit-content;
+        }
+
+        .event-type.festival {
+            background: rgba(231, 76, 60, 0.2);
+            color: #e74c3c;
+        }
+
+        .event-type.showcase {
+            background: rgba(155, 89, 182, 0.2);
+            color: #9b59b6;
+        }
+
+        .event-type.lafrench {
+            background: rgba(201, 168, 76, 0.2);
+            color: var(--color-gold);
+        }
+
+        .event-type.electronic {
+            background: rgba(52, 152, 219, 0.2);
+            color: #3498db;
+        }
+
+        .event-card h3 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            color: var(--color-white);
+            margin-bottom: 12px;
+        }
+
+        .event-card .location {
+            color: var(--color-gray);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .event-card .description {
+            color: var(--color-gray);
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .event-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .event-tag {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--color-white-soft);
+        }
+
+        .event-cta {
+            margin-top: auto;
+        }
+
+        .month-divider {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin: 60px 0 40px;
+        }
+
+        .month-divider span {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--color-gold);
+            white-space: nowrap;
+        }
+
+        .month-divider::before,
+        .month-divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: rgba(201, 168, 76, 0.3);
+        }
+
+        .featured-event {
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.1), rgba(201, 168, 76, 0.02));
+            border: 1px solid rgba(201, 168, 76, 0.3);
+        }
+
+        @media (max-width: 900px) {
+            .event-card {
+                grid-template-columns: 1fr;
+            }
+
+            .event-card-image {
+                min-height: 200px;
+            }
+
+            .event-card-content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index" class="logo">La French</a>
+            <ul class="nav-links">
+                <li><a href="index">Home</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="clubs">Discoteche <span style="font-size: 10px;">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="clubs/opium-barcelona" class="dropdown-item">Opium</a></li>
+                        <li><a href="clubs/ku-pacha-barcelona" class="dropdown-item">KU (ex Pacha)</a></li>
+                        <li><a href="clubs/shoko-barcelona" class="dropdown-item">Shôko</a></li>
+                        <li><a href="clubs/otto-zutz" class="dropdown-item">Otto Zutz</a></li>
+                        <li><a href="clubs/city-hall" class="dropdown-item">City Hall</a></li>
+                    </ul>
+                </li>
+                <li><a href="guest-lists">Guest List</a></li>
+                <li><a href="vip-reservations">Tavoli VIP</a></li>
+                <li><a href="events">Eventi</a></li>
+                <li><a href="parties-today">Stasera</a></li>
+                <li><a href="index#contact">Contatti</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="index#contact" class="nav-cta">Ingresso Gratuito</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <header class="events-hero">
+        <div class="container">
+            <h1>Eventi Barcellona 2026</h1>
+            <p>Festival, showcase, serate electro — Tutti gli eventi imperdibili per i giovani a Barcellona
+                quest'anno.</p>
+        </div>
+    </header>
+
+    <section class="events-section">
+        <div class="container">
+
+            <!-- MARZO -->
+            <div class="month-divider"><span>🔥 Marzo 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card featured-event">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600');">
+                        <div class="event-date-badge"><span class="day">4-7</span><span class="month">Mars</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type lafrench">La French</span>
+                        <h3>La French — Barcelona Edition</h3>
+                        <p class="location">📍 Si Pub Musical + Clubs partenaires</p>
+                        <p class="description">L'evento della comunità internazionale a Barcellona! 4 notti complete
+                            con pre-serata organizzati, guest list gratuita nelle migliori discoteche e un'atmosfera
+                            internazionale pazzesca.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🆓 Guest list gratuita</span>
+                            <span class="event-tag">🍻 Pre-serata</span>
+                            <span class="event-tag">🌍 Community</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Prenota il mio posto — Gratis</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- SHOWCASE IN DISCOTECA - TUTTO L'ANNO -->
+            <div class="month-divider"><span>🎧 Showcase in Discoteca — Tutto l'anno</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=600');">
+                        <div class="event-date-badge"><span class="day">SAM</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Club Night</span>
+                        <h3>Opium Saturdays</h3>
+                        <p class="location">📍 Opium Barcelona, Barceloneta</p>
+                        <p class="description">La serata firma di Opium ogni sabato. DJ resident
+                            house/commercial, folla internazionale, terrazza fronte mare. IL posto dove essere il sabato
+                            sera.
+                        </p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎵 House / Commercial</span>
+                            <span class="event-tag">🌊 Vista mare</span>
+                            <span class="event-tag">🆓 Guest list disponibile</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Guest List Opium</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1571266028243-3716f02d2d2e?w=600');">
+                        <div class="event-date-badge"><span class="day">JEU</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Club Night</span>
+                        <h3>Bling Bling Thursdays — Reggaeton Night</h3>
+                        <p class="location">📍 Bling Bling, Eixample</p>
+                        <p class="description">L'appuntamento reggaeton del giovedì sera! Bad Bunny, J Balvin, Daddy
+                            Yankee... La serata latino più calda di Barcellona con guest list gratuita.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🔥 Reggaeton</span>
+                            <span class="event-tag">💃 Latino vibes</span>
+                            <span class="event-tag">🆓 Guest list disponibile</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Guest List Bling Bling</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1545128485-c400e7702796?w=600');">
+                        <div class="event-date-badge"><span class="day">VEN</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Club Night</span>
+                        <h3>KU (ex Pacha) Barcelona — House Sessions</h3>
+                        <p class="location">📍 KU (ex Pacha) Barcelona, Port Olímpic</p>
+                        <p class="description">La leggenda di Ibiza ogni venerdì! DJ house internazionali, atmosfera
+                            premium, sound system impeccabile. L'ADN KU (ex Pacha) a Barcellona.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎧 House</span>
+                            <span class="event-tag">🍒 KU (ex Pacha) vibes</span>
+                            <span class="event-tag">🆓 Guest list disponibile</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Guest List KU (ex Pacha)</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1574391884720-bbc3740c59d1?w=600');">
+                        <div class="event-date-badge"><span class="day">SAM</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Club Night</span>
+                        <h3>Sutton The Club — Exclusive Saturdays</h3>
+                        <p class="location">📍 Sutton Club, Zona Alta</p>
+                        <p class="description">Il club più esclusivo di Barcellona. Clientela VIP, dress code rigoroso,
+                            atmosfera chic. Commercial house e hit del momento in un contesto premium.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">💎 Premium</span>
+                            <span class="event-tag">👔 Dress code rigoroso</span>
+                            <span class="event-tag">🆓 Guest list disponibile</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Guest List Sutton</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600');">
+                        <div class="event-date-badge"><span class="day">VEN</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Club Night</span>
+                        <h3>Shôko Fridays — Beach Club Vibes</h3>
+                        <p class="location">📍 Shôko Barcelona, Barceloneta</p>
+                        <p class="description">Ristorante, lounge e club fronte mare. Cena e poi balla fino all'alba.
+                            RnB, house, afrobeats in un'atmosfera tropicale.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🌴 Beach club</span>
+                            <span class="event-tag">🎵 RnB / House</span>
+                            <span class="event-tag">🆓 Guest list disponibile</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Guest List Shôko</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- SHOWCASE ELECTRO -->
+            <div class="month-divider"><span>⚡ Showcase Electro Regolari</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=600');">
+                        <div class="event-date-badge"><span class="day">SAM</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type electronic">Techno</span>
+                        <h3>Nitsa Club — Apolo</h3>
+                        <p class="location">📍 Sala Apolo, Poble Sec</p>
+                        <p class="description">Istituzione techno barcellonese dal 1993! Ogni sabato, i
+                            migliori DJ techno/house nel mitico Apolo. Leggenda vivente del clubbing.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎧 Techno / House</span>
+                            <span class="event-tag">🏛️ Istituzione</span>
+                            <span class="event-tag">🎫 15-20€</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600');">
+                        <div class="event-date-badge"><span class="day">VEN</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type electronic">Techno</span>
+                        <h3>Input High Fidelity</h3>
+                        <p class="location">📍 Input, Poble Nou</p>
+                        <p class="description">Sound system Funktion-One leggendario. Techno ricercata, folla di
+                            appassionati, atmosfera dark warehouse. Per i veri amanti del suono.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🔊 Funktion-One</span>
+                            <span class="event-tag">🖤 Underground</span>
+                            <span class="event-tag">🎫 12-18€</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600');">
+                        <div class="event-date-badge"><span class="day">SAM</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type electronic">Techno</span>
+                        <h3>Moog — The Raval Legend</h3>
+                        <p class="location">📍 Moog Club, Raval</p>
+                        <p class="description">Piccolo club mitico nel cuore del Raval. Techno ed electro in
+                            un'atmosfera
+                            intima e intensa. Più di 25 anni di storia e sempre al top.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎛️ Electro / Techno</span>
+                            <span class="event-tag">📍 Raval</span>
+                            <span class="event-tag">🎫 10-15€</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600');">
+                        <div class="event-date-badge"><span class="day">VEN</span><span class="month">Chaque</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Multi-genre</span>
+                        <h3>Razzmatazz — 5 Rooms</h3>
+                        <p class="location">📍 Razzmatazz, Poblenou</p>
+                        <p class="description">Il più grande complesso di club di Barcellona! 5 sale, 5 atmosfere:
+                            indie, techno, pop, house, rock. Ce n'è per tutti i gusti sotto lo stesso tetto.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎸 Indie</span>
+                            <span class="event-tag">🎧 Techno</span>
+                            <span class="event-tag">🎤 Pop/Rock</span>
+                            <span class="event-tag">🎫 15-20€</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- APRILE -->
+            <div class="month-divider"><span>🌷 Aprile 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600');">
+                        <div class="event-date-badge"><span class="day">17-19</span><span class="month">Apr</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Showcase</span>
+                        <h3>Elrow Barcelona</h3>
+                        <p class="location">📍 Fira Montjuïc</p>
+                        <p class="description">La festa più folle del mondo! Decori deliranti, travestimenti
+                            obbligatori, coriandoli, animazioni... Elrow trasforma ogni serata in un carnevale
+                            techno/house.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎪 Show immersivo</span>
+                            <span class="event-tag">🎭 Costumi</span>
+                            <span class="event-tag">🎫 40-70€</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600');">
+                        <div class="event-date-badge"><span class="day">25</span><span class="month">Avr</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Showcase</span>
+                        <h3>Circoloco Barcelona</h3>
+                        <p class="location">📍 Parc del Fòrum</p>
+                        <p class="description">Il leggendario party di Ibiza sbarca a Barcellona! Line-up techno/house
+                            pazzesca, open air fronte mare dalle 16:00 a mezzanotte.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">☀️ Open air</span>
+                            <span class="event-tag">🎧 Techno / House</span>
+                            <span class="event-tag">🎫 45-65€</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- MAGGIO -->
+            <div class="month-divider"><span>🌸 Maggio 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600');">
+                        <div class="event-date-badge"><span class="day">28-31</span><span class="month">Mai</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type festival">Festival</span>
+                        <h3>Primavera Sound 2026</h3>
+                        <p class="location">📍 Parc del Fòrum, Barcelona</p>
+                        <p class="description">IL festival imperdibile di Barcellona! Indie, rock, electro, pop — una
+                            programmazione XXL con i più grandi artisti mondiali su 4 giorni fronte mare.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎵 Indie / Rock / Electro</span>
+                            <span class="event-tag">🌊 Fronte mare</span>
+                            <span class="event-tag">🎫 90-300€</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- JUIN -->
+            <div class="month-divider"><span>☀️ Juin 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1571266028243-3716f02d2d2e?w=600');">
+                        <div class="event-date-badge"><span class="day">11-15</span><span class="month">Juin</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type electronic">Elettronica</span>
+                        <h3>Off Week Barcelona</h3>
+                        <p class="location">📍 Club & location di Barcellona</p>
+                        <p class="description">La settimana techno/house più intensa dell'anno. Decine di
+                            showcase in tutti i club della città per una settimana intera. Input, Nitsa, Moog,
+                            Razzmatazz...</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎧 Techno / House</span>
+                            <span class="event-tag">🌃 24/7</span>
+                            <span class="event-tag">⚡ Must-do</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=600');">
+                        <div class="event-date-badge"><span class="day">18-20</span><span class="month">Juin</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type electronic">Festival</span>
+                        <h3>Sónar Barcelona 2026</h3>
+                        <p class="location">📍 Fira Montjuïc + Fira Gran Via</p>
+                        <p class="description">Il festival di musica elettronica e arte digitale più
+                            prestigioso al mondo. Sónar di giorno per le scoperte, Sónar di notte per gli headliner
+                            internazionali.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🤖 Électro / Expérimental</span>
+                            <span class="event-tag">🎨 Art numérique</span>
+                            <span class="event-tag">🎫 70-250€</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600');">
+                        <div class="event-date-badge"><span class="day">25-28</span><span class="month">Juin</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Showcase</span>
+                        <h3>Brunch Electronik</h3>
+                        <p class="location">📍 Poble Espanyol</p>
+                        <p class="description">La serie di domeniche elettroniche all'aria aperta. Atmosfera brunch + DJ
+                            set di qualità nella magica cornice del Poble Espanyol. Dalle 12:00 alle 23:00.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🌞 Day party</span>
+                            <span class="event-tag">🎧 House / Tech</span>
+                            <span class="event-tag">🎫 15-30€</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- LUGLIO -->
+            <div class="month-divider"><span>🏖️ Luglio 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600');">
+                        <div class="event-date-badge"><span class="day">9-12</span><span class="month">Juil</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type festival">Festival</span>
+                        <h3>Cruïlla Barcelona</h3>
+                        <p class="location">📍 Parc del Fòrum</p>
+                        <p class="description">Festival multiculturale con una programmazione eclettica: rock, reggae,
+                            world music, hip-hop, pop. L'atmosfera è più rilassata rispetto al Primavera, molto
+                            familiare e
+                            festosa.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🌍 World / Rock / Reggae</span>
+                            <span class="event-tag">✌️ Chill vibes</span>
+                            <span class="event-tag">🎫 60-150€</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600');">
+                        <div class="event-date-badge"><span class="day">17-19</span><span class="month">Juil</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type festival">Festival</span>
+                        <h3>Barcelona Beach Festival</h3>
+                        <p class="location">📍 Platja del Fòrum</p>
+                        <p class="description">Gigantesco festival EDM sulla spiaggia di Barcellona. I più grandi DJ
+                            commerciali (Martin Garrix, David Guetta...) su un palco monumentale di fronte al
+                            Mediterraneo.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎵 EDM / House</span>
+                            <span class="event-tag">🏖️ Beach</span>
+                            <span class="event-tag">🎫 50-100€</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- AGOSTO -->
+            <div class="month-divider"><span>🔥 Agosto 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1574391884720-bbc3740c59d1?w=600');">
+                        <div class="event-date-badge"><span class="day">14-16</span><span class="month">Août</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type festival">Festival</span>
+                        <h3>Festa Major de Gràcia</h3>
+                        <p class="location">📍 Quartier Gràcia, Barcelona</p>
+                        <p class="description">Non un festival in senso classico, ma LA festa popolare di Barcellona!
+                            Le strade di Gràcia vengono decorate in modo spettacolare. Concerti gratuiti, atmosfera
+                            locale,
+                            sangria a fiumi.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎭 Culture locale</span>
+                            <span class="event-tag">🆓 Gratuit</span>
+                            <span class="event-tag">🍷 Fête populaire</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600');">
+                        <div class="event-date-badge"><span class="day">21-23</span><span class="month">Août</span>
+                        </div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Showcase</span>
+                        <h3>DGTL Barcelona</h3>
+                        <p class="location">📍 Parc del Fòrum</p>
+                        <p class="description">Festival techno/house premium arrivato da Amsterdam. Scenografia
+                            futuristica,
+                            suono impeccabile e una programmazione ricercata per i veri amanti della musica
+                            elettronica.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎧 Techno / House</span>
+                            <span class="event-tag">🌃 Sunset → Sunrise</span>
+                            <span class="event-tag">🎫 60-120€</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- SETTEMBRE -->
+            <div class="month-divider"><span>🍂 Settembre 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1504680177321-2e6a879aac86?w=600');">
+                        <div class="event-date-badge"><span class="day">24</span><span class="month">Sept</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type festival">Festival</span>
+                        <h3>La Mercè</h3>
+                        <p class="location">📍 Toute la ville de Barcelone</p>
+                        <p class="description">La festa patronale di Barcellona! Concerti gratuiti giganteschi (BAM
+                            Festival), spettacoli di strada, correfocs (sfilate di fuoco), castellers... 5 giorni di
+                            follia.
+                        </p>
+                        <div class="event-tags">
+                            <span class="event-tag">🆓 100% gratuit</span>
+                            <span class="event-tag">🔥 Correfocs</span>
+                            <span class="event-tag">🎶 BAM Festival</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- OTTOBRE -->
+            <div class="month-divider"><span>🎃 Ottobre - Dicembre 2026</span></div>
+
+            <div class="events-grid">
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1545128485-c400e7702796?w=600');">
+                        <div class="event-date-badge"><span class="day">30-31</span><span class="month">Oct</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Showcase</span>
+                        <h3>Halloween Barcelona</h3>
+                        <p class="location">📍 Tous les clubs de Barcelone</p>
+                        <p class="description">Nel fine settimana di Halloween, TUTTI i club di Barcellona organizzano
+                            serate in maschera. Opium, Bling Bling, KU (ex Pacha), Sutton... Guest list disponibile
+                            tramite La
+                            French
+                            !</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎃 Costumes</span>
+                            <span class="event-tag">🆓 Guest list dispo</span>
+                            <span class="event-tag">🌃 Toute la nuit</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Guest List Halloween</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <div class="event-card-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1482575832494-771f74bf6857?w=600');">
+                        <div class="event-date-badge"><span class="day">31</span><span class="month">Déc</span></div>
+                    </div>
+                    <div class="event-card-content">
+                        <span class="event-type showcase">Showcase</span>
+                        <h3>Réveillon Barcelone</h3>
+                        <p class="location">📍 Clubs & Plaça Catalunya</p>
+                        <p class="description">Il Capodanno a Barcellona è leggendario! Raduno gigante a Plaça
+                            Catalunya a mezzanotte e poi direzione club per festeggiare fino all'alba.</p>
+                        <div class="event-tags">
+                            <span class="event-tag">🎆 Countdown</span>
+                            <span class="event-tag">🍾 Champagne</span>
+                            <span class="event-tag">🆓 Guest list dispo</span>
+                        </div>
+                        <div class="event-cta">
+                            <a href="index#contact" class="btn btn-primary">Réserver le Réveillon</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- CTA Finale -->
+            <div class="cta-box" style="margin-top: 80px;">
+                <h3>Vuoi uscire a Barcellona?</h3>
+                <p>Qualunque sia l'evento, La French ti offre l'ingresso gratuito nelle discoteche partner. Pre-serata +
+                    Guest List + Atmosfera.</p>
+                <a href="index#contact" class="btn btn-primary">Unisciti a La French — Gratis</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">La French</div>
+            <p class="footer-tagline">Classe • Festif • Gratis in lista</p>
+            <div class="footer-links">
+                <a href="index">Home</a>
+                <a href="guest-lists">Guest List</a>
+                <a href="vip-reservations">Tavoli VIP</a>
+                <a href="events">Eventi</a>
+                <a href="parties-today">Stasera</a>
+                <a href="index#contact">Contatti</a>
+            </div>
+            <div class="footer-nap">
+                <strong>La French Barcelona</strong><br>
+                Barcellona, Spagna<br>
+                <a href="mailto:lafrenchbcn@gmail.com">lafrenchbcn@gmail.com</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 La French Barcelona. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

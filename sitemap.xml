@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- ===================== HOMEPAGE ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+    </url>
+
+    <!-- ===================== GUEST LISTS ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/guest-lists.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/guest-lists.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+    </url>
+
+    <!-- ===================== VIP RESERVATIONS ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/vip-reservations.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/vip-reservations.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+    </url>
+
+    <!-- ===================== EVENTS ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+    </url>
+
+    <!-- ===================== PARTIES TODAY ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/parties-today.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/parties-today.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+    </url>
+
+    <!-- ===================== WEEKEND EVENTS ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/weekend-events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/weekend-events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+    </url>
+
+    <!-- ===================== CLUB: OPIUM BARCELONA ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/opium-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/opium-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+    </url>
+
+    <!-- ===================== CLUB: KU (ex PACHA) ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/ku-pacha-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/ku-pacha-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+    </url>
+
+    <!-- ===================== CLUB: SHOKO ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/shoko-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/shoko-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+    </url>
+
+    <!-- ===================== CLUB: OTTO ZUTZ ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/otto-zutz.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/otto-zutz.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+    </url>
+
+    <!-- ===================== CLUB: CITY HALL ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/city-hall.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/city-hall.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+    </url>
+
+
+    <!-- ===================== ITALIAN PAGES ===================== -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/guest-lists.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/guest-lists.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/guest-lists.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/vip-reservations.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/vip-reservations.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/events.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/parties-today.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/parties-today.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/parties-today.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/weekend-events.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/weekend-events.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/weekend-events.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/opium-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/opium-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/opium-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/ku-pacha-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/ku-pacha-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/ku-pacha-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/shoko-barcelona.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/shoko-barcelona.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/shoko-barcelona.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/otto-zutz.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/otto-zutz.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/otto-zutz.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/city-hall.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/clubs/city-hall.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/clubs/city-hall.html"/>
+    </url>
+
+    <!-- ===================== BLOG POSTS ===================== -->
+    <!-- blog-befores.html (All Languages) -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-befores.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-befores.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-befores.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-befores.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-befores.html"/>
+    </url>
+
+    <!-- blog-clubs-barcelone.html (All Languages) -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-clubs-barcelone.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-clubs-barcelone.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-clubs-barcelone.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-clubs-barcelone.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-clubs-barcelone.html"/>
+    </url>
+
+    <!-- blog-entree-gratuite.html (All Languages) -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-entree-gratuite.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-entree-gratuite.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-entree-gratuite.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-entree-gratuite.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-entree-gratuite.html"/>
+    </url>
+
+    <!-- blog-erasmus.html (All Languages) -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-erasmus.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-erasmus.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-erasmus.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-erasmus.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-erasmus.html"/>
+    </url>
+
+    <!-- blog-vip.html (All Languages) -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-vip.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-vip.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-vip.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-vip.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-vip.html"/>
+    </url>
+
+    <!-- blog-weekend.html (All Languages) -->
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-weekend.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-weekend.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+    </url>
+    <url>
+        <loc>https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-weekend.html</loc>
+        <lastmod>2026-02-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/blog-weekend.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/blog-weekend.html"/>
+    </url>
+</urlset>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCH0WTVM1V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-MCH0WTVM1V');
+    </script>
+    <title>Page Non Trouvée | La French Barcelona</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="stylesheet" href="styles.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: var(--color-bg);
+            color: var(--color-white);
+            font-family: var(--font-body);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .error-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .error-code {
+            font-family: var(--font-heading);
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--color-gold);
+            line-height: 1;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        .error-title {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            max-width: 500px;
+            margin-bottom: 40px;
+            color: var(--color-gray);
+            font-size: 1.1rem;
+        }
+
+        .btn-home {
+            background-color: var(--color-gold);
+            color: var(--color-bg);
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-3px);
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index" class="logo">La French</a>
+        </div>
+    </nav>
+
+    <div class="error-container">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-title">Oups ! Cette page est introuvable.</h2>
+        <p class="error-message">Il semble que la page que tu cherches n'existe plus ou a été déplacée. Retourne à
+            l'accueil pour découvrir les meilleures soirées de Barcelone.</p>
+        <a href="index" class="btn-home">Retour à l'Accueil</a>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-copy">&copy; 2026 La French Barcelona.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem
+secrets.json
+
+# Build and temp
+node_modules/
+.sass-cache/
+.gemini/
+*.log
+
+# Project specific
+*.pdf
+canonicals_audit.txt
+deploy site.rtf

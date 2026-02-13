@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lafrenchbarcelona-275699211798.europe-west1.run.app/sitemap.xml

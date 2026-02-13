@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCH0WTVM1V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MCH0WTVM1V');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservations Tables VIP Barcelone | La French</title>
+    <meta name="description"
+        content="Réserve ta table VIP dans les meilleurs clubs de Barcelone : Opium, Pacha, Shoko, Bling Bling et plus encore. Meilleurs prix garantis.">
+
+    <!-- Canonical -->
+    <meta property="og:image" content="https://lafrenchbarcelona-275699211798.europe-west1.run.app/assets/images/si-pub.jpg">
+    <meta property="og:url" content="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations">
+    <link rel="canonical" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations">
+        <!-- Hreflang -->
+    <link rel="alternate" hreflang="fr-fr" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations">
+    <link rel="alternate" hreflang="en-gb" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/en/vip-reservations">
+    <link rel="alternate" hreflang="es-es" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/es/vip-reservations">
+    <link rel="alternate" hreflang="it-it" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/it/vip-reservations">
+    <link rel="alternate" hreflang="x-default" href="https://lafrenchbarcelona-275699211798.europe-west1.run.app/vip-reservations">
+
+    <link rel="stylesheet" href="styles.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        .vip-page-hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/si-pub.jpg');
+            /* Falling back to known asset for background */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .vip-grid-container {
+            padding: 80px 0;
+            background: var(--color-bg);
+        }
+
+        .vip-club-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .club-vip-card {
+            background: var(--color-bg-light);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(201, 168, 76, 0.1);
+            transition: var(--transition-smooth);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .club-vip-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--color-gold);
+            box-shadow: 0 10px 30px rgba(201, 168, 76, 0.15);
+        }
+
+        .club-vip-image {
+            height: 200px;
+            background: #222;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .club-vip-image i {
+            font-size: 3rem;
+            color: rgba(201, 168, 76, 0.2);
+        }
+
+        .club-vip-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .club-name {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--color-gold);
+            margin-bottom: 5px;
+        }
+
+        .club-location {
+            font-size: 0.85rem;
+            color: var(--color-gray);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .club-price-tag {
+            background: rgba(201, 168, 76, 0.1);
+            color: var(--color-gold);
+            padding: 8px 15px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+            border: 1px solid rgba(201, 168, 76, 0.2);
+        }
+
+        .club-features {
+            list-style: none;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+            color: var(--color-white-soft);
+        }
+
+        .club-features li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .club-features li::before {
+            content: '✓';
+            color: var(--color-gold);
+            font-weight: bold;
+        }
+
+        .club-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: auto;
+        }
+
+        .btn-small {
+            padding: 10px;
+            font-size: 0.8rem;
+            text-align: center;
+            border-radius: 5px;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-whatsapp-direct {
+            grid-column: span 2;
+            background: #25D366;
+            color: white;
+            font-weight: 700;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-whatsapp-direct:hover {
+            background: #128C7E;
+            transform: scale(1.02);
+        }
+
+        .club-links {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 15px;
+            font-size: 0.8rem;
+        }
+
+        .club-link {
+            color: var(--color-gold);
+            text-decoration: underline;
+            opacity: 0.8;
+        }
+
+        .club-link:hover {
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .vip-club-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled"> <!-- Always scrolled look for this page -->
+        <div class="nav-container">
+            <a href="index" class="logo">La French</a>
+            <ul class="nav-links">
+                <li><a href="index">Accueil</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="clubs">Clubs <span style="font-size: 10px;">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="clubs/opium-barcelona" class="dropdown-item">Opium</a></li>
+                        <li><a href="clubs/ku-pacha-barcelona" class="dropdown-item">KU (ex Pacha)</a></li>
+                        <li><a href="clubs/shoko-barcelona" class="dropdown-item">Shôko</a></li>
+                        <li><a href="clubs/otto-zutz" class="dropdown-item">Otto Zutz</a></li>
+                        <li><a href="clubs/city-hall" class="dropdown-item">City Hall</a></li>
+                    </ul>
+                </li>
+                <li><a href="guest-lists">Guest List</a></li>
+                <li><a href="vip-reservations" class="active">Tables VIP</a></li>
+                <li><a href="events">Événements</a></li>
+                <li><a href="parties-today">Ce Soir</a></li>
+                <li><a href="index#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" target="_blank" class="nav-cta">Réserver
+                    Directement</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="vip-page-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="sparkle sparkle-lg" style="top: -40px; left: 50%; transform: translateX(-50%);">
+                <svg viewBox="0 0 100 100">
+                    <path d="M50 0 L54 46 L100 50 L54 54 L50 100 L46 54 L0 50 L46 46 Z" />
+                </svg>
+            </div>
+            <h1 class="hero-title">Tables VIP & Bouteilles</h1>
+            <p class="hero-subtitle">Vivez l'exclusivité dans les meilleurs clubs de Barcelone</p>
+        </div>
+    </section>
+
+    <!-- Main Grid -->
+    <section class="vip-grid-container">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Sélection Premium</span>
+                <h2 class="section-title">Choisissez votre Club</h2>
+                <p class="section-subtitle">Tarifs officiels, service prioritaire et placement optimal</p>
+            </div>
+
+            <div class="vip-club-grid">
+
+                <!-- OPIUM BARCELONA -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #333);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">OPIUM</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Opium Barcelona</h3>
+                        <p class="club-location">Pg. Marítim de la Barceloneta, 34</p>
+                        <div class="club-price-tag">Dès 300€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://www.entraenmicarta.es/local/j1ls40m9t7" target="_blank"
+                                class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/opiummesasvip/original.jpg?v=63900371497"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Accès prioritaire sans file d'attente</li>
+                            <li>Espace VIP exclusif</li>
+                            <li>Consommation incluse (bouteilles)</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PACHA BARCELONA -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #441111);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">PACHA</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Pacha Barcelona</h3>
+                        <p class="club-location">Ramon Trias Fargas, 2</p>
+                        <div class="club-price-tag">Dès 300€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/pacha%20barcelona%20carta%201/original.jpg"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/pacha%20plano%20mesas%20vip/original.jpg"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Design iconique & ambiance Ibiza</li>
+                            <li>Meilleur son de la plage</li>
+                            <li>Espaces VIP face à la mer</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SHOKO BARCELONA -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #554411);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">SHOKO</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Shoko Barcelona</h3>
+                        <p class="club-location">Pg. Marítim de la Barceloneta, 36</p>
+                        <div class="club-price-tag">Dès 600€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/shoko%20barcelona%20carta%201/original.png"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/Bookings%20shoko/original.jpg"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Décoration orientale luxueuse</li>
+                            <li>Voted Top 100 Clubs in the world</li>
+                            <li>Service VIP ultra-premium</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BLING BLING -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #aa8822);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">BLING
+                            BLING</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Bling Bling Barcelona</h3>
+                        <p class="club-location">Carrer de Tuset, 8</p>
+                        <div class="club-price-tag">Dès 250€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://www.entraenmicarta.es/local/s9ir5ci60e" target="_blank"
+                                class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/bling%20bling%20barcelona%20mesas%20vip%20mapa/original.png"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Le club le plus chic de la zone haute</li>
+                            <li>Public élégant & international</li>
+                            <li>Show visuel impressionnant</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SUTTON -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #001133);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">SUTTON</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Sutton Barcelona</h3>
+                        <p class="club-location">Carrer de Tuset, 13</p>
+                        <div class="club-price-tag">Dès 300€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/sutton%20barcelona%20carta%201/original.jpg"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/sutton%20barcelona%20mesas%20vip%20mapa/original.jpg"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Club de référence mondiale</li>
+                            <li>Zone VIP immense et luxueuse</li>
+                            <li>Dress code strict & exclusif</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- DOWNTOWN -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #222);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">DOWNTOWN</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Downtown Barcelona</h3>
+                        <p class="club-location">Av. Dr. Marañón, 17</p>
+                        <div class="club-price-tag">Jeu: 300€ | Ven-Sam: 400€</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/carta%20downtown%20botellas%20mesa%20vip/original.jpg"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/downtown%20barcelona%20plano%20mesas%20vip/original.jpg"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Espace immense avec écrans géants</li>
+                            <li>Ambiance étudiante & locale</li>
+                            <li>Superbe zone VIP circulaire</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOXE (W HOTEL) -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #111, #444);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">NOXE</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Noxe (Hotel W)</h3>
+                        <p class="club-location">Plaça de la Rosa dels Vents, 1</p>
+                        <div class="club-price-tag">Dès 500€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/carta%20precios%20noxe%20barcelona%20hotel%20w%20price%20bottle%20menu/original.jpg"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/plano%20hotel%20w%20eclipse%20barcelona/original.jpg"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Vue panoramique au 26ème étage</li>
+                            <li>Le spot le plus exclusif de Barcelone</li>
+                            <li>Cocktails d'exception & DJ sets</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- TWENTIES -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #661166);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">TWENTIES</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Twenties Barcelona</h3>
+                        <p class="club-location">Carrer de Rosselló, 208</p>
+                        <div class="club-price-tag">Dès 300€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/carta%20precios%20twenties%20barcelona%20/original.jpg"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/twenties%20plano%20mesa%20vip/original.jpg"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Design moderne & néons</li>
+                            <li>Ambiance locale jeune & débridée</li>
+                            <li>Tables VIP proches du DJ</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- OTTO ZUTZ -->
+                <div class="club-vip-card">
+                    <div class="club-vip-image" style="background: linear-gradient(45deg, #1a1a1a, #226622);">
+                        <span style="font-family: var(--font-heading); font-size: 2rem; color: white;">OTTO ZUTZ</span>
+                    </div>
+                    <div class="club-vip-content">
+                        <h3 class="club-name">Otto Zutz</h3>
+                        <p class="club-location">Carrer de Lincoln, 15</p>
+                        <div class="club-price-tag">Dès 200€ / 5 pers.</div>
+                        <div class="club-links">
+                            <a href="https://youbarcelona.com/uploads/images/c/otto%20zutz%20carta%20precios%20vip/original.jpg"
+                                target="_blank" class="club-link">Voir la Carte</a>
+                            <a href="https://youbarcelona.com/uploads/images/c/otto%20zutz%20vip%20table/original.png"
+                                target="_blank" class="club-link">Plan des Tables</a>
+                        </div>
+                        <ul class="club-features">
+                            <li>Ambiance Hip-Hop & R&B</li>
+                            <li>Style industriel unique</li>
+                            <li>Espaces VIP sur plusieurs étages</li>
+                        </ul>
+                        <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" class="btn btn-whatsapp-direct">
+                            Réserver via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--color-bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Informations Importantes</h2>
+                <p class="section-subtitle">Tout ce qu'il faut savoir avant de réserver</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: var(--color-gold); margin-bottom: 10px;">Qu'est-ce qui est inclus dans le prix ?
+                    </h4>
+                    <p style="color: var(--color-white-soft); opacity: 0.8;">Le montant payé est un "minimum de
+                        consommation". Cela signifie que l'intégralité de la somme est transformée en crédit pour
+                        commander des bouteilles ou des boissons à la carte.</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: var(--color-gold); margin-bottom: 10px;">Quelle est l'heure limite d'arrivée ?
+                    </h4>
+                    <p style="color: var(--color-white-soft); opacity: 0.8;">Pour garantir votre table, une arrivée
+                        avant 01h30 est fortement recommandée. Après cette heure, le club se réserve le droit de
+                        réattribuer la table en cas de forte affluence.</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="color: var(--color-gold); margin-bottom: 10px;">Quel est le dress code ?</h4>
+                    <p style="color: var(--color-white-soft); opacity: 0.8;">Pour les zones VIP, une tenue élégante est
+                        obligatoire. Chemise recommandée pour les hommes, chaussures de ville (pas de baskets de sport).
+                        Le club se réserve le droit d'entrée.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">La French</div>
+            <p class="footer-tagline">Classe • Festif • Gratuit sur liste</p>
+            <div class="footer-links">
+                <a href="index">Accueil</a>
+                <a href="guest-lists">Guest List</a>
+                <a href="vip-reservations">Tables VIP</a>
+                <a href="events">Événements</a>
+                <a href="parties-today">Ce Soir</a>
+                <a href="index#contact">Contact</a>
+            </div>
+                        <div class="footer-nap">
+                <strong>La French Barcelona</strong><br>
+                Barcelona, Spain<br>
+                <a href="mailto:lafrenchbcn@gmail.com">lafrenchbcn@gmail.com</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 La French Barcelona. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Ensure navbar is scrolled on load and scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.pageYOffset > 20) {
+                navbar.classList.add('scrolled');
+            } else {
+                // Keep it scrolled for this specific page if desired, or let it go transparent
+                // navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
