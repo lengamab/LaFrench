@@ -2,7 +2,7 @@
 
 > **Entrée gratuite en club | Guest List & Befores** — L'expérience nightlife complète à Barcelone
 > 
-> *Dernier déploiement auto : 13 fév. 2026 à 16:34*
+> *Dernier déploiement auto : 13 fév. 2026 à 16:50 — AI Engine Live 🤖*
 
 [![Website](https://img.shields.io/badge/Website-lafrench--barcelona.com-gold)](https://lafrench-barcelona.com)
 [![Instagram](https://img.shields.io/badge/Instagram-@french__connection__list__-E4405F?logo=instagram)](https://www.instagram.com/french_connection_list_)
