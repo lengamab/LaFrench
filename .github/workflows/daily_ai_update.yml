@@ -1,0 +1,36 @@
+name: Daily AI Event Update
+
+on:
+  schedule:
+    - cron: '0 14 * * *' # Every day at 2 PM UTC
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run AI Update Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python update_parties.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "La French AI Bot"
+          git config --global user.email "ai-bot@lafrench-barcelona.com"
+          git add *.html en/*.html es/*.html it/*.html
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 AI: Daily automatic event update" && git push)
