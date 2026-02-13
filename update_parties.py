@@ -74,10 +74,10 @@ def generate_parties_content():
     
     Return ONLY a valid JSON object. 
     Keys: "fr", "en", "es", "it". 
-    Values: {
+    Values: {{
         "intro": "The short text summary here...",
         "cards": "The HTML string containing cards here..."
-    }
+    }}
     """
     
     # Define models to try in order of preference (Verified from debug run)
