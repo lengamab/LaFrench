@@ -52,8 +52,13 @@ def generate_parties_content():
     Scraped data from club websites:
     {raw_data}
     
-    TASK: Determine which clubs are open TONIGHT and create 4 versions of HTML (FR, EN, ES, IT).
-    Use a premium, nightlife-focused style.
+    TASK: Determine which clubs are open TONIGHT and create content for 4 languages (FR, EN, ES, IT).
+    
+    1. INTRO: Write a short, exciting 1-2 sentence summary of TONIGHT's specific vibe (mention specific DJs or event names if found). 
+       Example: "Tonight at Opium, DJ Frank is spinning for Ladies Night. Shoko brings the heat with..."
+       Style: Premium nightlife guide. SEO optimized.
+       
+    2. CARDS: Generate HTML cards for open clubs.
     
     HTML structure for each card:
     <a href="clubs/CLUB-SLUG" class="tonight-club-card">
@@ -69,7 +74,10 @@ def generate_parties_content():
     
     Return ONLY a valid JSON object. 
     Keys: "fr", "en", "es", "it". 
-    Values: The HTML string containing 3-5 cards.
+    Values: {
+        "intro": "The short text summary here...",
+        "cards": "The HTML string containing cards here..."
+    }
     """
     
     # Define models to try in order of preference (Verified from debug run)
@@ -99,7 +107,7 @@ def generate_parties_content():
             
     raise Exception(f"All models failed. Last error: {last_error}")
 
-def update_page(file_path, new_html):
+def update_page(file_path, content_data):
     if not os.path.exists(file_path):
         print(f"File {file_path} not found.")
         return
@@ -107,17 +115,26 @@ def update_page(file_path, new_html):
     with open(file_path, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
 
+    # Update Summary
+    summary_el = soup.find(id='ai-daily-summary')
+    if summary_el:
+        summary_el.string = content_data.get('intro', '')
+        print(f"Updated summary in {file_path}")
+    else:
+        print(f"Could not find #ai-daily-summary in {file_path}")
+
+    # Update Cards
     container = soup.find('div', class_='tonight-clubs-grid')
     if container:
         # Use a new soup to parse the generated HTML and inject it
-        new_soup = BeautifulSoup(new_html, 'html.parser')
+        new_soup = BeautifulSoup(content_data.get('cards', ''), 'html.parser')
         container.clear()
         container.append(new_soup)
         
         # Save back
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(str(soup.prettify()))
-        print(f"Updated {file_path}")
+        print(f"Updated cards in {file_path}")
     else:
         print(f"Could not find tonight-clubs-grid in {file_path}")
 
