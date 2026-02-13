@@ -70,16 +70,32 @@ def generate_parties_content():
     NEVER use picsum.photos, unsplash, placeholder.com, or any other placeholder image service.
     
     HTML structure for each card (use the correct image path for the language):
-    <a href="clubs/CLUB-SLUG" class="tonight-club-card">
+    <div class="tonight-club-card">
         <div class="tonight-club-img" style="background-image: url('CORRECT_IMAGE_PATH');">
+            <span class="club-status">LOCALIZED_STATUS</span>
             <span class="day-tag">LOCALIZED_DAY_TAG</span>
+            <span class="club-vip-badge">✦ LOCALIZED_VIP_BADGE</span>
         </div>
         <div class="tonight-club-body">
             <h3>CLUB_NAME</h3>
-            <p>📍 LOCALIZED_NEIGHBORHOOD</p>
-            <p class="club-music">MUSIC_GENRE</p>
+            <p class="club-event">EVENT_EMOJI EVENT_NAME</p>
+            <div class="club-tags">
+                <span class="club-tag">GENRE_1</span>
+                <span class="club-tag">GENRE_2</span>
+            </div>
+            <p class="club-location">📍 LOCALIZED_NEIGHBORHOOD</p>
+            <a href="https://chat.whatsapp.com/CJufcPBShXpGGhfeihdPDr" target="_blank" class="btn-book-tonight">LOCALIZED_BOOK_CTA</a>
+            <a href="clubs/CLUB-SLUG" class="club-detail-link">LOCALIZED_VIEW_CLUB →</a>
         </div>
-    </a>
+    </div>
+    
+    Localization for card labels:
+    - FR: status="Ouvert Ce Soir", vip="VIP Dispo", cta="Entrée Gratuite — Réserver", link="Voir le Club →"
+    - EN: status="Open Tonight", vip="VIP Available", cta="Free Entry — Book Now", link="View Club →"
+    - ES: status="Abierto Esta Noche", vip="VIP Disponible", cta="Entrada Gratis — Reservar", link="Ver Club →"
+    - IT: status="Aperto Stasera", vip="VIP Disponibile", cta="Ingresso Gratuito — Prenota", link="Vedi Club →"
+    
+    For EVENT_NAME: Generate a catchy, exciting event name based on the scraped data (e.g., "🔥 DEMON TIME", "🎉 LADIES NIGHT", "🎶 CARNIVAL SPECIAL").
     
     Return ONLY a valid JSON object. 
     Keys: "fr", "en", "es", "it". 
